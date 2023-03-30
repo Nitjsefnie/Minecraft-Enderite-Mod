@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_leggings"
+    "item": "dragonloot:dragon_leggings"
   },
   "addition": {
     "item": "enderitemod:enderite_ingot"

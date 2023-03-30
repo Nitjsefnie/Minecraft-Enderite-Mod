@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_chestplate"
+    "item": "dragonloot:dragon_chestplate"
   },
   "addition": {
     "item": "enderitemod:enderite_ingot"

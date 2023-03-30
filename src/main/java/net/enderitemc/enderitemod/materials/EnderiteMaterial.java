@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 
 public enum EnderiteMaterial implements ToolMaterial {
 
-    ENDERITE(4, 4096, 15.0F, 2.0F, 17, () -> Ingredient.ofItems(EnderiteMod.ENDERITE_INGOT));
+    ENDERITE(6, 4096, 16.0F, 2.0F, 17, () -> Ingredient.ofItems(EnderiteMod.ENDERITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

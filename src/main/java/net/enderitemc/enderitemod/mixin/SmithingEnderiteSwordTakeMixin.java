@@ -45,7 +45,7 @@ public abstract class SmithingEnderiteSwordTakeMixin extends ForgingScreenHandle
             // Read the charge of sword
             if (this.input.getStack(0).getNbt().contains("teleport_charge")) {
                 // Charge is old charge + amount of enderpearls
-                int allowableSubstract = 64
+                int allowableSubstract = 1024
                         - Integer.parseInt(this.input.getStack(0).getNbt().get("teleport_charge").asString());
                 amountToSubstract = Math.min(allowableSubstract, amountToSubstract);
             }
