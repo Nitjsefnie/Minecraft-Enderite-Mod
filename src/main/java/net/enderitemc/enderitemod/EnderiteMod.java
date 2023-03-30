@@ -87,7 +87,7 @@ public class EnderiteMod implements ModInitializer {
 			-3.0F,
 			new Item.Settings().fireproof());
 	public static final ToolItem ENDERITE_HOE = new HoeSubclass(EnderiteMaterial.ENDERITE, CONFIG.tools.enderiteHoeAD,
-			0.0F,
+			-2.0F,
 			new Item.Settings().fireproof());
 
 	public static final ToolItem ENDERITE_SHOVEL = new ShovelItem(EnderiteMaterial.ENDERITE,

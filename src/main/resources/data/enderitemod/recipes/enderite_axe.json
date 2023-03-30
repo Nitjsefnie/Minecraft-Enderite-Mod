@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_axe"
+    "item": "dragonloot:dragon_axe"
   },
   "addition": {
     "item": "enderitemod:enderite_ingot"

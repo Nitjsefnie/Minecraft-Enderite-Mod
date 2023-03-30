@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_pickaxe"
+    "item": "dragonloot:dragon_pickaxe"
   },
   "addition": {
     "item": "enderitemod:enderite_ingot"
