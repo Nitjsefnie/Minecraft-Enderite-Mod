@@ -38,8 +38,8 @@ public abstract class SmithingEnderiteSwordMixin extends ForgingScreenHandler {
                 teleport_charge = Integer.parseInt(sword.getNbt().get("teleport_charge").asString())
                         + pearls.getCount();
             }
-            if (teleport_charge > 64) {
-                teleport_charge = 64;
+            if (teleport_charge > 1024) {
+                teleport_charge = 1024;
             }
             // Copy the same sword and put charge into it
             ItemStack newSword = sword.copy();

@@ -15,7 +15,7 @@ public class Config {
         public int enderiteAxeAD = 8;
         public int enderiteHoeAD = -2;
         public float enderiteShovelAD = 4.5f;
-        public int enderiteSwordAD = 6;
+        public int enderiteSwordAD = 8;
 
         public float enderiteBowAD = 2.5f;
         public float enderiteBowArrowSpeed = 3.5f;

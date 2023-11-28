@@ -13,11 +13,11 @@ import net.minecraft.sound.SoundEvents;
 
 public enum EnderiteArmorMaterial implements ArmorMaterial {
 
-    ENDERITE("enderite", 8, new int[] { 4, 7, 9, 4 }, 17, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.1F, () -> {
+    ENDERITE("enderite", 8, new int[] { 9, 11, 13, 9 }, 25, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.2F, () -> {
         return Ingredient.ofItems(EnderiteMod.ENDERITE_INGOT.get());
     });
 
-    private static final int[] baseDurability = { 128, 144, 160, 112 };
+    private static final int[] baseDurability = { 143, 163, 178, 133 };
     private final String name;
     private final int durabilityMultiplier;
     private final int[] armorValues;

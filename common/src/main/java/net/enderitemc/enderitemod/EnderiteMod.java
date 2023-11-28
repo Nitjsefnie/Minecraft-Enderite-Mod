@@ -112,7 +112,7 @@ public class EnderiteMod {
                                         new Item.Settings().group(EnderiteMod.ENDERITE_TAB).fireproof()));
         public static final RegistrySupplier<Item> ENDERITE_HOE = ITEMS.register("enderite_hoe",
                         () -> new HoeSubclass(EnderiteMaterial.ENDERITE, CONFIG.tools.enderiteHoeAD,
-                                        0.0F,
+                                        -2.0F,
                                         new Item.Settings().group(EnderiteMod.ENDERITE_TAB).fireproof()));
 
         public static final RegistrySupplier<Item> ENDERITE_SHOVEL = ITEMS.register("enderite_shovel",
